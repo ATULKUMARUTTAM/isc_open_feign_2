@@ -1,4 +1,4 @@
-# Spring Cloud OpenFeign: Declarative Inter-Service Communication
+<img width="1000" height="153" alt="image" src="https://github.com/user-attachments/assets/6c40572d-6989-46bb-bc80-cd89e4ebe36d" /># Spring Cloud OpenFeign: Declarative Inter-Service Communication
 
 ## 1. Project Overview
 
@@ -144,6 +144,12 @@ Product Service requires Spring Web.
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+```
+```xml
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-openfeign</artifactId>
 </dependency>
 ```
 
